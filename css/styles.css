@@ -1,0 +1,145 @@
+body {
+  font-family: 'Roboto', 'Lato', 'Open Sans', sans-serif;
+  color: #2e2f42;
+  background-color: #fff;
+}
+
+/*Styles for header*/
+
+.nav-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.nav-logo-color {
+  color: #4d5ae5;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+}
+
+.address-item {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+
+/*Styles for main*/
+
+.hero {
+  background: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero-btn {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  width: 169px;
+  height: 56px;
+}
+
+.features-subtitle,
+.team-subtitle,
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.features-text,
+.team-text,
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.doing-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.portfolio {
+  background-color: inherit;
+}
+
+.btn-item {
+  width: 116px;
+  height: 48px;
+  background: #f4f4fd;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  border: none;
+}
+
+.portfolio-item {
+  width: 360px;
+  height: 300px;
+}
+
+/*Footer*/
+
+.footer {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 310px;
+}
+
+.footer-logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
