@@ -1,3 +1,9 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --text-color: #434455;
+  --hover-button: #404bbf;
+}
+
 body {
   font-family: 'Roboto', 'Lato', 'Open Sans', sans-serif;
   color: #2e2f42;
@@ -16,7 +22,7 @@ body {
 }
 
 .nav-logo-color {
-  color: #4d5ae5;
+  color: var(--primary-brand);
 }
 
 .link {
@@ -36,11 +42,11 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: var(--hover-button);
 }
 
 .address-item {
-  color: #434455;
+  color: var(--text-color);
   font-size: 16px;
   line-height: 1.33;
   letter-spacing: 0.02em;
@@ -49,7 +55,7 @@ body {
 
 .address-item:hover,
 .address-item:focus {
-  color: #404bbf;
+  color: var(--hover-button);
 }
 
 /*Styles for main*/
@@ -70,7 +76,7 @@ body {
 }
 
 .hero-btn {
-  background-color: #4d5ae5;
+  background-color: var(--primary-brand);
   color: #ffffff;
   border: none;
   font-weight: 500;
@@ -83,7 +89,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background: #404bbf;
+  background: var(--hover-button);
 }
 
 .features-subtitle,
@@ -101,7 +107,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 
 .doing-title,
@@ -113,10 +119,6 @@ body {
   text-transform: capitalize;
 }
 
-.portfolio {
-  background-color: inherit;
-}
-
 .btn-item {
   width: 116px;
   height: 48px;
@@ -125,13 +127,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--primary-brand);
   border: none;
 }
 
 .btn-item:hover,
 .btn-item:focus {
-  background-color: #404bbf;
+  background-color: var(--hover-button);
   color: #fff;
 }
 
