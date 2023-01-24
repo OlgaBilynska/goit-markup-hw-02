@@ -34,12 +34,22 @@ body {
   letter-spacing: 0.02em;
 }
 
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
 .address-item {
   color: #434455;
   font-size: 16px;
   line-height: 1.33;
   letter-spacing: 0.02em;
   font-style: normal;
+}
+
+.address-item:hover,
+.address-item:focus {
+  color: #404bbf;
 }
 
 /*Styles for main*/
@@ -69,6 +79,11 @@ body {
   letter-spacing: 0.04em;
   width: 169px;
   height: 56px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #404bbf;
 }
 
 .features-subtitle,
@@ -114,9 +129,19 @@ body {
   border: none;
 }
 
+.btn-item:hover,
+.btn-item:focus {
+  background-color: #404bbf;
+  color: #fff;
+}
+
 .portfolio-item {
   width: 360px;
   height: 300px;
+}
+
+button {
+  cursor: pointer;
 }
 
 /*Footer*/
